@@ -15,7 +15,7 @@ RUN npm install
 
 # Bundle project
 COPY . .
-RUN ionic build --prod
+RUN ionic build
 
 # Run application
 FROM nginx:alpine
